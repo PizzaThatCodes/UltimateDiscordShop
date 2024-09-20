@@ -24,7 +24,7 @@
 ### Installation
 
 1. **Download the Plugin**:  
-   Download the latest version of UDS from the [Releases](https://github.com/PizzaThatCodes/UltimateDiscordShop/releases) page.
+   Download the latest version of UDS from [BuiltByBit](https://builtbybit.com/resources/ultimatediscordshop.52040) page.
 
 2. **Install the Plugin**:  
    Place the downloaded `UltimateDiscordShop.jar` file in your server's `plugins` directory.
