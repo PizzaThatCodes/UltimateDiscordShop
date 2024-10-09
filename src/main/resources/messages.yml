@@ -1,0 +1,28 @@
+general:
+  prefix: "&8[&6&lRewards&8] &r"
+
+staff:
+  reload: "%prefix% Configuration reloaded!"
+  reload-error: "%prefix% An error occurred while reloading the configuration!"
+  invalid-argument: "%prefix% Invalid arguments! Please use /uds <additem|removeitem> <codeID>"
+  no-console: "%prefix% You can't execute this command in the console!"
+  no-permission: "%prefix% You don't have permission to execute this command!"
+  redeem: "%prefix% Opening redeem gui..."
+  add-item:
+    usage: "%prefix% Usage: /additem <codeID>"
+    exists: "%prefix% This code already exists!"
+    success: "%prefix% You have successfully added the item with the code: %code%!"
+    no-item: "%prefix% You must hold an item in your hand!"
+  remove-item:
+    usage: "%prefix% Usage: /removeitem <codeID>"
+    not-exists: "%prefix% This code doesn't exist!"
+    success: "%prefix% You have successfully removed the item with the code: %code%!"
+
+redeem:
+  usage: "%prefix% Usage: /redeem <code>"
+  no-console: "%prefix% You can't redeem this code in the console!"
+  invalid-code: "%prefix% Invalid code!"
+  already-redeemed: "%prefix% This code has already been redeemed!"
+  success: "%prefix% You have successfully redeemed the code and received %item%!"
+  no-permission: "%prefix% You don't have permission to redeem codes!"
+  item-not-found: "%prefix% The item with the code %code% was not found! Please contact an administrator to get this fixed!"

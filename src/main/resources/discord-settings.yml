@@ -1,0 +1,37 @@
+general:
+  discordToken: ""
+  guildID: ""
+
+coin-settings:
+  startingCoins: 100
+  coin-per-message: "Math.floor(Math.random() * (10 - 1 + 1) + 1);" # Could use a formula here, using JavaScript syntax.
+  blocked-channels:
+    - "123456789012345678"
+
+
+
+embeds:
+  shop-embed:
+    colour: 0x00ff00
+    title: "Shop"
+    description: "Buy items with your coins!"
+    thumbnail: "https://cdn.discordapp.com/attachments/123456789012345678/123456789012345678/coin.png"
+  buy-embed:
+    colour: 0x00ff00
+    title: "Purchase"
+    description: "Thank you for your purchase! Here are your items:"
+    footer: "Finish of Purchase complete"
+    thumbnail: "https://cdn.discordapp.com/attachments/123456789012345678/123456789012345678/coin.png"
+  not-enough-coins-embed:
+    colour: 0xff0000
+    emphemeral: true
+    title: "Not Enough Coins"
+    description: "You do not have enough coins to purchase this item!"
+    footer: "Finish of Not Enough Coins"
+    thumbnail: "https://cdn.discordapp.com/attachments/123456789012345678/123456789012345678/coin.png"
+  balance-embed:
+    colour: 0x00ff00
+    title: "Balance"
+    description: "Here is the current balance of %user%:"
+    footer: "Finish of Balance"
+    thumbnail: "https://cdn.discordapp.com/attachments/123456789012345678/123456789012345678/coin.png"

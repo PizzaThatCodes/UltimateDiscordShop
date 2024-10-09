@@ -1,0 +1,11 @@
+items:
+  SkeletonRank:
+    name: "Skeleton Rank"
+    description: "Skeleton Rank"
+    price: 1000
+    itemCode: "SKELETON_RANK"
+  Crate_Key:
+    name: "Crate Key"
+    description: "Crate Key"
+    price: 500
+    itemCode: "CRATE_KEY"

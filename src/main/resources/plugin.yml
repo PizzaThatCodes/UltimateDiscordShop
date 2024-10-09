@@ -1,0 +1,20 @@
+name: UltimateDiscordShop
+version: '${project.version}'
+main: me.pizzathatcodes.ultimatediscordshop.Main
+api-version: '1.20'
+authors: [PizzaThatCodes]
+description: A 1.20.4 to 1.21 shop plugin that allows discord to minecraft shopping!
+commands:
+  redeem:
+    description: Redeem a code
+    usage: /redeem <code>
+    permission: ultimateshop.redeem
+  ultimatediscordshop:
+    description: Main command for UltimateDiscordShop
+    usage: /ultimatediscordshop
+    permission: ultimateshop.admin
+    aliases:
+      - uds
+      - udshop
+      - udsadmin
+      - udshopadmin
